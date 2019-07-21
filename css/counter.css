@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'TmonMonsori';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/TmonMonsori.woff') format('woff');
+}
+body {
+  height: 100%;
+  weight: 100%;
+  font-family: 'TmonMonsori';
+}
+.wrapper {
+  vertical-align: middle;
+}
+.box {
+  position:absolute;
+  top:50%; left:50%;
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0px 0px 20px -8px rgba(199,199,199,1);
+  -moz-box-shadow: 0px 0px 20px -8px rgba(199,199,199,1);
+  box-shadow: 0px 0px 20px -8px rgba(199,199,199,1);
+  vertical-align: middle;
+  border-radius: 150px;
+  padding: 175px;
+  width: 55%;
+  background: #A770EF;
+  background: -webkit-linear-gradient(to left, #FDB99C, #CF8BF2, #A770EF);
+  background: linear-gradient(to left, #FDB99C, #CF8BF2, #A770EF);
+}
+.main-text {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 70px;
+}
+.second-text {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 60px;
+}
