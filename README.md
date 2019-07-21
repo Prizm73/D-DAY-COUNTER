@@ -7,6 +7,7 @@ Description
 
 How to modify?
 --------------
+css/counter.css
 ```CSS
 .box {
   position:absolute;
@@ -25,6 +26,7 @@ How to modify?
 }
 ```
 
+js/counter.js
 ```Javascript
 var day = new Date('2019, 11, 14'); // ('2019, 11, 14') means 2019/11/14.
 var present = new Date();
